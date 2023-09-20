@@ -1,4 +1,4 @@
-from sql import connectToSql
+from src.sql import connectToSql
 
 db = connectToSql()
 

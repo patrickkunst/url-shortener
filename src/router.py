@@ -1,5 +1,5 @@
 from flask import Flask, request, redirect
-from sql import connectToSql
+from src.sql import connectToSql
 
 app = Flask(__name__)
 
